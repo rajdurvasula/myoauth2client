@@ -1,0 +1,28 @@
+package com.rd.oauth;
+
+public class TaskState {
+
+    private String state;
+    private String workNotes;
+
+    public TaskState() {
+
+    }
+
+    public void  setState(String state) {
+        this.state = state;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setWorkNotes(String workNotes) {
+        this.workNotes = workNotes;
+    }
+
+    public String getWorkNotes() {
+        return workNotes;
+    }
+
+}
